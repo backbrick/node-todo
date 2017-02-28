@@ -13,7 +13,7 @@ This is a sample application built with a CLEAN stack (CLoudant NoSQL database, 
 1. Create a Bluemix Account
 
     [Sign up][bluemix_signup_url] for Bluemix, or use an existing account.
-    
+
 1. Download and install the [Cloud-foundry CLI][cloud_foundry_url] tool
 
 1. Clone the app to your local environment from your terminal using the following command
@@ -29,11 +29,11 @@ This is a sample application built with a CLEAN stack (CLoudant NoSQL database, 
 	```
 	$ cf login
 	```
-    
+
 1. Create the Cloudant service in Bluemix.
 
   ```
-  $ cf create-service cloudantNoSQLDB Shared todo-cloudant
+  $ cf create-service cloudantNoSQLDB Lite todo-cloudant
   ```
 
 1. Push the application to Bluemix.
